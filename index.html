@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Library App</h1>
+
+    <div class="container">
+
+        <button type="button" class="btn_modal">Add new book(abrir modal)</button>
+
+        <div class="myModal">
+            <h2>Add book</h2>
+
+            <form>
+
+                <label>titulo:</label>
+                <input type="text" class="titulo_book" required>
+                
+                <label>Author:</label>
+                <input type="text" class="author_book"  required>
+                
+                <label>pages:</label>
+                <input type="text" class="pages_book" required>
+
+                <button type="submit" class="add_book">Add book</button>
+            </form>
+
+            <button type="button" class="btn_cerrar_modal">Cerrar</button>
+        </div>
+    </div>
+
+    <div class="card_book"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
